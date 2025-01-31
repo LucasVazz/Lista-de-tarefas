@@ -1,0 +1,122 @@
+body {
+  font-family: arial;
+  background-color: aliceblue;
+  padding: 30px;
+  color: #333;
+  background-image: url(./image/imagem.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+  }
+  
+.app {
+  max-width: 600px;
+  margin: 0 auto 300px;
+  backdrop-filter: blur(90px);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+input {
+  box-sizing: bo;
+}
+button {
+  background: rgba(255, 255, 255, 0.3);
+  opacity: 0.5;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+  margin-right: 7px;
+}
+button:hover {
+  opacity: 90;
+}
+.todo p {
+  max-width: 99%;
+  white-space: normal; 
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+  word-wrap: break-word;
+  word-break: break-word;
+ }
+.todo {
+  padding: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  flex-wrap: wrap;
+ }
+.complete {
+  background-color: #6bae7c;
+}
+.remove {
+  background-color: #b56565;
+}
+
+.todo-form {
+  text-transform: capitalize;
+  padding-bottom: 1.5rem;
+}
+input::placeholder {
+  text-transform: none;
+}
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.filter,
+.search {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #555;
+}
+.filter-options div {
+  flex: 1 1 0;
+}
